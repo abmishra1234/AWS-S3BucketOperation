@@ -53,7 +53,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CsvFileDownloader.cs" />
     <Compile Include="CsvFileUploader .cs" />
+    <Compile Include="IFileDownloader.cs" />
     <Compile Include="IFileUploader.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
